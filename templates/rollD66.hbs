@@ -1,0 +1,16 @@
+<div class="dice-roll">
+  <h4 class="dice-formula">{{d66}}</h4>
+  <div class="dice-result">
+    <div class="dice-tooltip" style="display: none;">
+      <section class="tooltip-part">
+        <div class="dice" style="display: flex; justify-content: center;">
+          <ol class="dice-rolls">
+            <li class="roll {{dice.[0].type}}die d6{{dice.[0].max}}">{{{dice.[0].img}}}</li>
+            <li class="roll {{dice.[1].type}}die d6{{dice.[1].max}}">{{{dice.[1].img}}}</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+    <h4 class="dice-total">{{total}}</h4>
+  </div>
+</div>

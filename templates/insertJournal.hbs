@@ -1,0 +1,22 @@
+{{#if (eq type 'container')}}
+<div class="fbl-core"><div class="fbl-page-divider"></div></div>
+<hr>
+{{/if}}
+
+{{#if (eq type 'date')}}
+<div class="fbl-core">
+  <div class="fbl-page-divider">
+    <p> </p>
+  </div>
+  <h2>{{date.date}}</h2>
+</div>
+{{/if}}
+
+{{#if (eq type 'quater')}}
+<h4><strong>{{date.quater}}</strong> ({{date.light}})</h4>
+<hr>
+{{/if}}
+
+{{#if (eq type 'message')}}
+{{{message}}}
+{{/if}}

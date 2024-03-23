@@ -1,0 +1,119 @@
+[
+	{
+		"plains": {
+			"scenes": ["vDd045IzUqVlE6a3", "VdOjTXFYLBPOPaqv"],
+			"tables": ["hSoMAEyfDwD2ooMx", "28lOiLNPGdJD22wk"],
+			"locations": ["kjn3aJhlJvovuI9R"]
+		}
+	},
+	{
+		"forest": {
+			"scenes": ["vDd045IzUqVlE6a3", "VdOjTXFYLBPOPaqv"],
+			"tables": ["1pqNvWvjvxva7XH7", "1sl4cYyGAj9bd50k"],
+			"locations": ["LqnFNXDk0WwUCNmT"]
+		}
+	},
+	{
+		"crimson-forest": {
+			"scenes": ["VdOjTXFYLBPOPaqv"],
+			"tables": ["9UTN1gXHrE5vhYSt"]
+		}
+	},
+	{
+		"dark-forest": {
+			"scenes": ["vDd045IzUqVlE6a3"],
+			"tables": ["2g2DWCfECPPrLNy8", "FyRyUK9quJ9djpvr"],
+			"locations": ["PvmZzT3ALfVj5uT9"]
+		}
+	},
+	{
+		"hills": {
+			"scenes": ["vDd045IzUqVlE6a3", "VdOjTXFYLBPOPaqv"],
+			"tables": ["iIgFA7Q7FPuIV2tJ", "1QdNPF8daHL1sBmU"],
+			"locations": ["VWk40dVb0uEFHtM9"]
+		}
+	},
+	{
+		"tundra": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["TmhXEt5ISGgTdGEB"]
+		}
+	},
+	{
+		"ice-cap": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["FgMwNYLKEoDsSyDa"]
+		}
+	},
+	{
+		"beneath-the-ice": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["rCekxycwo8UjWIyp"]
+		}
+	},
+	{
+		"mountains": {
+			"scenes": ["vDd045IzUqVlE6a3", "d2yThKHwtHPHdtlv", "VdOjTXFYLBPOPaqv"],
+			"tables": ["RGy5WfBVZ017zShc", "ZEVTv3lFUv6PC5BS"],
+			"locations": ["8oC9yLuzXvEtZyN2"]
+		}
+	},
+	{
+		"lake": {
+			"scenes": ["vDd045IzUqVlE6a3", "VdOjTXFYLBPOPaqv"],
+			"tables": ["pL6fRPG34Xn9fpFr", "iniSfB6B0dTc1Msi"],
+			"locations": ["w5bG1nyTgDgtD6YL"]
+		}
+	},
+	{
+		"marshlands": {
+			"scenes": ["vDd045IzUqVlE6a3"],
+			"tables": ["nCEnGCJQxU6kcNFU", "NLr2KHNwEWouOmYr"],
+			"locations": ["YVu1TGPFHN5ljdCs"]
+		}
+	},
+	{
+		"quagmire": {
+			"scenes": ["vDd045IzUqVlE6a3"],
+			"tables": ["wbhxEokfBi5vSGTu", "q4jCDDd1QUJCm9it"],
+			"locations": ["O3Xh1AyM5yCNBEMd"]
+		}
+	},
+	{
+		"ruins": {
+			"scenes": ["vDd045IzUqVlE6a3"],
+			"tables": ["Efnhp4dmBsoxUgaA", "ceduE1xSnCnavtpp"],
+			"locations": ["X4BuAodOl8qhTzyM"]
+		}
+	},
+	{
+		"ice-forest": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["5RM1yFk4rK4zgn3Q"]
+		}
+	},
+	{
+		"ocean": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["Spg6zN9qgI0lyyQQ"]
+		}
+	},
+	{
+		"sea-ice": {
+			"scenes": ["d2yThKHwtHPHdtlv"],
+			"tables": ["M4XIrIQHxWkYGkIw"]
+		}
+	},
+	{
+		"ashlands": {
+			"scenes": ["VdOjTXFYLBPOPaqv"],
+			"tables": ["uqaY6Yf3GDrVoVgo"]
+		}
+	},
+	{
+		"firelands": {
+			"scenes": ["VdOjTXFYLBPOPaqv"],
+			"tables": ["AcJ3kaqWyto5NUsk"]
+		}
+	}
+]

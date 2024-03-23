@@ -1,0 +1,95 @@
+{
+  "id": "fbl-solo-game",
+  "version": "1.0.5",
+  "title": "Forbidden Lands - Solo Game",
+  "description": "<b><em>Solo Game</em></b> is an adventure module for the <b><em>Forbidden Lands</em></b> RPG. It is based on some solo rules from the book <b><em>Book of Beasts</em></b> and provides support for solo players. It contains many <b>oracle tables</b> implemented as macros, Chat Messages can be <b>copied</b> as plain text or <b>inserted</b> as HTML into a journal, the travel route in the Forbidden Lands can be <b>tracked</b> via footsteps and nearly everything can be <b>configured</b> through settings.",
+  "compatibility": {
+    "minimum": "11.315",
+    "verified": "11.315",
+    "maximum": "11.315"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "fbl-core-game",
+        "type": "module",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.0"
+        }
+      },
+      {
+        "id": "fbl-book-of-beasts",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.1",
+          "verified": "1.0.1"
+        }
+      },
+      {
+        "id": "foundryvtt-simple-calendar",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.4.0",
+          "verified": "2.4.13"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "forbidden-lands",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11.0.0",
+          "verified": "11.4.2"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {
+          "minimum": "4.6.0",
+          "verified": "4.6.10"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/fbl-solo-game.js"
+  ],
+  "styles": [
+    "styles/fbl-solo-game.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "./modules/fbl-solo-game/assets/fbl-solo-game.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "fbl-solo-game",
+      "label": "Solo Game",
+      "banner": "./modules/fbl-solo-game/assets/fbl-solo-game.png",
+      "path": "packs/fbl-solo-game",
+      "type": "Adventure",
+      "system": "forbidden-lands",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}

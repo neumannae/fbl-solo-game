@@ -1,0 +1,35 @@
+{{#if roll}}
+<div class="forbidden-lands chat-item" style="margin: auto;">
+  <h3>{{weather}}</h3>
+  <br>
+  <h4>{{rWind.results.[0].parent.name}} ({{rWind.roll.total}})</h4>
+  <p style="padding:10px, margin-top: -10px;">{{{rWind.results.[0].text}}}</p>
+  <h4>{{rRain.results.[0].parent.name}} ({{rRain.roll.total}})</h4>
+  <p style="padding:10px, margin-top: -10px;">{{{rRain.results.[0].text}}}</p>
+  <h4>{{rTemp.results.[0].parent.name}} ({{rTemp.roll.total}})</h4>
+  <p style="padding:10px, margin-top: -10px;">{{{rTemp.results.[0].text}}}</p>
+</div>
+{{else}}
+<div class="fbl-core fbl-box">
+  <table class="fbl-table text-left">
+    <tbody>
+      <tr>
+        <th><p>{{weather}}</p></th>
+        <th><p>{{effect}}</p></th>
+      </tr>
+      <tr>
+        <td><p>{{rWind.results.[0].parent.name}} ({{rWind.roll.total}})</p></td>
+        <td><p>{{{rWind.results.[0].text}}}</p></td>
+      </tr>
+      <tr>
+        <td><p>{{rRain.results.[0].parent.name}} ({{rRain.roll.total}})</p></td>
+        <td><p>{{{rRain.results.[0].text}}}</p></td>
+      </tr>
+      <tr>
+        <td><p>{{rTemp.results.[0].parent.name}} ({{rTemp.roll.total}})</p></td>
+        <td><p>{{{rTemp.results.[0].text}}}</p></td>
+      </tr>
+     </tbody>
+  </table>
+</div>
+{{/if}}

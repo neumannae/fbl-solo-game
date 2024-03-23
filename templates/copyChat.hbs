@@ -1,0 +1,11 @@
+{{#if (eq type 'date')}}
+<h2>{{date.date}}</h2>
+{{/if}}
+
+{{#if (eq type 'quater')}}
+<h4><strong>{{date.quater}}</strong> ({{date.light}})</h4>
+{{/if}}
+
+{{#if (eq type 'message')}}
+{{{message}}}
+{{/if}}
